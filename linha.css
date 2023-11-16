@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.linha{
+    width: 1%;
+    height:1820vh;
+    background-color:black;
+    position: absolute;
+    left: 48.5%;
+}
+
+.cartao{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    display:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    margin: 50px 10px 50px 10px;
+    gap: 50px;    
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background-color: #f3f3f3;
+    
+}
+
+
+.card p{
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.card img {
+    width: 50%;
+    height: 100%;
+}
+
+
+
+
+
+
+a {
+    margin-left: 50px;
+    padding: 50px;
+    background-color: #f3f3f3;
+}
+
+
+
+
+
+#DVD-ROM, #CDs, #MemóriaRam, #notebook, #tocadisco, #celular2, #celular4, #celular6, #celular8, #celular10, #celular12, #celular14,#celular16, #celular18, #celular20, #celular22 {
+    position: relative;
+    left: 60%;
+}
